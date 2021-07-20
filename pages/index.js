@@ -1,5 +1,6 @@
 import Container from "../components/container";
 import Hero from "../components/hero";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -13,9 +14,11 @@ export default function Home() {
             </h1>
             <div className="flex flex-col md:flex-row space-y-8 md:space-y-0 md:space-x-8">
               <div className="flex-1">
-                <img
+                <Image
                   src="https://images.unsplash.com/photo-1416331108676-a22ccb276e35?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8"
-                  className="w-full h-auto"
+                  width={1280}
+                  height={720}
+                  layout="responsive"
                 />
               </div>
               <div className="xl:max-w-2xl lg:max-w-sm md:max-w-xs text-center md:text-right text-primary text-sm lg:text-base space-y-4">

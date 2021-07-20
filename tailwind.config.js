@@ -12,7 +12,7 @@ module.exports = {
         secondary: "#6a6054",
         tertiary: "#343332",
       },
-      maxHeight: {
+      height: {
         "80vh": "80vh",
       },
       minWidth: {
