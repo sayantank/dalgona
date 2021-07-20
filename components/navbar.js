@@ -1,6 +1,7 @@
 import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
+import Image from "next/image";
 
 const navigation = [
   { name: "Documentation", href: "#" },
@@ -25,10 +26,13 @@ export default function Navbar() {
                   <div className="flex items-center justify-between w-full md:w-auto">
                     <a href="#">
                       <span className="sr-only">Workflow</span>
-                      <img
-                        className="h-8 w-auto sm:h-10"
+                      <Image
+                        // className="h-8 w-auto sm:h-10"
                         src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
                         alt=""
+                        layout="fixed"
+                        height={36}
+                        width={36}
                       />
                     </a>
                     <div className="-mr-2 flex items-center md:hidden">
@@ -81,10 +85,13 @@ export default function Navbar() {
                 <div className="rounded-lg shadow-md bg-primary text-secondary ring-1 ring-black ring-opacity-5 overflow-hidden">
                   <div className="px-5 pt-4 flex items-center justify-between">
                     <div>
-                      <img
-                        className="h-8 w-auto"
+                      <Image
+                        // className="h-8 w-auto sm:h-10"
                         src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
                         alt=""
+                        layout="fixed"
+                        height={36}
+                        width={36}
                       />
                     </div>
                     <div className="-mr-2">
