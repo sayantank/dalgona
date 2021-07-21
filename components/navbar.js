@@ -80,9 +80,9 @@ export default function Navbar() {
               <Popover.Panel
                 focus
                 static
-                className="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden"
+                className="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden z-10"
               >
-                <div className="rounded-lg shadow-md bg-primary text-secondary ring-1 ring-black ring-opacity-5 overflow-hidden">
+                <div className="rounded-lg shadow-md bg-primary text-secondary ring-1 ring-black ring-opacity-5 overflow-hidden ">
                   <div className="px-5 pt-4 flex items-center justify-between">
                     <div>
                       <Image
@@ -106,7 +106,7 @@ export default function Navbar() {
                       <a
                         key={item.name}
                         href={item.href}
-                        className="block px-3 py-2 rounded-md text-base font-serif font-medium text-secondary hover:bg-gray-50"
+                        className="block px-3 py-2 rounded-md text-base font-serif font-semibold text-secondary hover:bg-gray-50"
                       >
                         {item.name}
                       </a>
