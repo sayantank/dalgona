@@ -13,7 +13,7 @@ const navigation = [
 
 export default function Navbar() {
   return (
-    <div className="relative pt-6 pb-6">
+    <div className="relative pt-4 pb-4">
       <Popover>
         {({ open }) => (
           <>
@@ -26,14 +26,17 @@ export default function Navbar() {
                   <div className="flex items-center justify-between w-full md:w-auto">
                     <a href="#">
                       <span className="sr-only">Workflow</span>
-                      <Image
-                        // className="h-8 w-auto sm:h-10"
-                        src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
-                        alt=""
-                        layout="fixed"
-                        height={36}
-                        width={36}
-                      />
+                      <div className="mt-2">
+                        <Image
+                          // className="h-8 w-auto sm:h-10"
+
+                          src="/images/dalgona-logo.png"
+                          alt=""
+                          layout="fixed"
+                          height={50}
+                          width={100}
+                        />
+                      </div>
                     </a>
                     <div className="-mr-2 flex items-center md:hidden">
                       <Popover.Button className="rounded-md p-2 inline-flex items-center justify-center text-primary">
@@ -84,14 +87,15 @@ export default function Navbar() {
               >
                 <div className="rounded-lg shadow-md bg-primary text-secondary ring-1 ring-black ring-opacity-5 overflow-hidden ">
                   <div className="px-5 pt-4 flex items-center justify-between">
-                    <div>
+                    <div className="mt-2">
                       <Image
                         // className="h-8 w-auto sm:h-10"
-                        src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+
+                        src="/images/dalgona-logo.png"
                         alt=""
                         layout="fixed"
-                        height={36}
-                        width={36}
+                        height={50}
+                        width={100}
                       />
                     </div>
                     <div className="-mr-2">
