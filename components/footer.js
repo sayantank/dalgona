@@ -4,9 +4,9 @@ export default function Footer() {
   return (
     <div className="flex flex-col">
       <div className="bg-primary py-12 px-2 md:px-8 flex flex-col md:flex-row md:space-x-16 items-center md:items-start">
-        <div className="grid grid-cols-1 md:grid-cols-2 w-96 md:w-2/5 gap-4 px-8 md:px-0">
+        <div className="grid grid-cols-1 md:grid-cols-2 w-96 md:w-2/5 gap-8 px-12 md:px-0 mb-8 md:mb-0">
           <div className="flex flex-col space-y-1 justify-center">
-            <p className="text-xs font-medium text-secondary">&nbsp;</p>
+            {/* <p className="text-xs font-medium text-secondary">&nbsp;</p> */}
             <Image
               src="/images/dalgona-logo.png"
               width={400}
@@ -17,27 +17,27 @@ export default function Footer() {
           <div className="flex flex-col text-center">
             <p className="md:text-xs font-medium text-secondary">Marketed by</p>
             <Image
-              src="/images/dalgona-logo.png"
-              width={400}
-              height={200}
+              src="/images/landlaunch-land.png"
+              width={320}
+              height={80}
+              layout="responsive"
+            />
+          </div>
+          <div className="flex flex-col text-center">
+            <p className="md:text-xs font-medium text-secondary">Project by</p>
+            <Image
+              src="/images/maax-logo.svg"
+              width={100}
+              height={50}
               layout="responsive"
             />
           </div>
           <div className="flex flex-col text-center">
             <p className="md:text-xs font-medium text-secondary">Marketed by</p>
             <Image
-              src="/images/dalgona-logo.png"
-              width={400}
-              height={200}
-              layout="responsive"
-            />
-          </div>
-          <div className="flex flex-col text-center">
-            <p className="md:text-xs font-medium text-secondary">Marketed by</p>
-            <Image
-              src="/images/dalgona-logo.png"
-              width={400}
-              height={200}
+              src="/images/gaage-1.png"
+              width={280}
+              height={100}
               layout="responsive"
             />
           </div>
