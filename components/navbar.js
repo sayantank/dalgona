@@ -13,7 +13,7 @@ const navigation = [
 
 export default function Navbar() {
   return (
-    <div className="relative pt-4 pb-4">
+    <div className="z-20 w-full sm:absolute bg-quaternary sm:py-4 py-2">
       <Popover>
         {({ open }) => (
           <>
@@ -39,7 +39,7 @@ export default function Navbar() {
                       </div>
                     </a>
                     <div className="-mr-2 flex items-center md:hidden">
-                      <Popover.Button className="rounded-md p-2 inline-flex items-center justify-center text-primary">
+                      <Popover.Button className="rounded-md p-2 inline-flex items-center justify-center text-tertiary">
                         <span className="sr-only">Open main menu</span>
                         <MenuIcon className="h-6 w-6" aria-hidden="true" />
                       </Popover.Button>
@@ -51,7 +51,7 @@ export default function Navbar() {
                     <a
                       key={item.name}
                       href={item.href}
-                      className="font-medium text-primary font-serif"
+                      className="font-medium text-tertiary font-serif"
                     >
                       {item.name}
                     </a>
@@ -85,7 +85,7 @@ export default function Navbar() {
                 static
                 className="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden z-10"
               >
-                <div className="rounded-lg shadow-md bg-primary text-secondary ring-1 ring-black ring-opacity-5 overflow-hidden ">
+                <div className="rounded-lg shadow-md text-secondary ring-1 ring-black ring-opacity-5 overflow-hidden  bg-quaternary">
                   <div className="px-5 pt-4 flex items-center justify-between">
                     <div className="mt-2">
                       <Image
@@ -99,7 +99,7 @@ export default function Navbar() {
                       />
                     </div>
                     <div className="-mr-2">
-                      <Popover.Button className="rounded-md p-2 inline-flex items-center justify-center text-secondary">
+                      <Popover.Button className="rounded-md p-2 inline-flex items-center justify-center text-tertiary">
                         <span className="sr-only">Close menu</span>
                         <XIcon className="h-6 w-6" aria-hidden="true" />
                       </Popover.Button>
@@ -110,7 +110,7 @@ export default function Navbar() {
                       <a
                         key={item.name}
                         href={item.href}
-                        className="block px-3 py-2 rounded-md text-base font-serif font-semibold text-secondary hover:bg-gray-50"
+                        className="block px-3 py-2 rounded-md text-base font-serif font-semibold text-tertiary hover:bg-gray-50"
                       >
                         {item.name}
                       </a>

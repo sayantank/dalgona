@@ -3,10 +3,10 @@ import Image from "next/image";
 export default function Footer() {
   return (
     <div className="flex flex-col">
-      <div className="bg-primary py-12 px-2 md:px-8 flex flex-col md:flex-row md:space-x-16 items-center md:items-start">
+      <div className="bg-quaternary py-12 px-2 md:px-8 flex flex-col md:flex-row md:space-x-16 items-center md:items-start">
         <div className="grid grid-cols-1 md:grid-cols-2 w-96 md:w-2/5 gap-8 px-12 md:px-0 mb-8 md:mb-0">
           <div className="flex flex-col space-y-1 justify-center">
-            {/* <p className="text-xs font-medium text-secondary">&nbsp;</p> */}
+            {/* <p className="text-xs font-medium text-tertiary">&nbsp;</p> */}
             <Image
               src="/images/dalgona-logo.png"
               width={400}
@@ -15,7 +15,7 @@ export default function Footer() {
             />
           </div>
           <div className="flex flex-col text-center">
-            <p className="md:text-xs font-medium text-secondary">Marketed by</p>
+            <p className="md:text-xs font-medium text-tertiary">Marketed by</p>
             <Image
               src="/images/landlaunch-land.png"
               width={320}
@@ -24,7 +24,7 @@ export default function Footer() {
             />
           </div>
           <div className="flex flex-col text-center">
-            <p className="md:text-xs font-medium text-secondary">Project by</p>
+            <p className="md:text-xs font-medium text-tertiary">Project by</p>
             <Image
               src="/images/maax-logo.svg"
               width={100}
@@ -33,7 +33,7 @@ export default function Footer() {
             />
           </div>
           <div className="flex flex-col text-center">
-            <p className="md:text-xs font-medium text-secondary">Marketed by</p>
+            <p className="md:text-xs font-medium text-tertiary">Marketed by</p>
             <Image
               src="/images/gaage-1.png"
               width={280}
@@ -45,31 +45,31 @@ export default function Footer() {
         <div className="flex-1 flex flex-col md:flex-row space-y-8 md:space-y-0 md:space-x-4 md:py-8">
           <div className="flex-1 space-y-4">
             <div className="space-y-1 text-center md:text-left">
-              <h2 className="font-serif font-bold text-secondary text-lg">
+              <h2 className="font-serif font-bold text-tertiary text-lg">
                 Dalgona Office
               </h2>
-              <p className="text-secondary">
+              <p className="text-tertiary">
                 Level 17, 2 Southbank Blvd, Southbank
               </p>
             </div>
             <div className="space-y-1 text-center md:text-left">
-              <h2 className="font-serif font-bold text-secondary text-lg">
+              <h2 className="font-serif font-bold text-tertiary text-lg">
                 Location
               </h2>
-              <p className="text-secondary">110 Whites road, Mt. Duneed</p>
+              <p className="text-tertiary">110 Whites road, Mt. Duneed</p>
             </div>
           </div>
           <div className="flex-1 text-center md:text-left">
-            <h2 className="font-serif font-bold text-secondary text-xl mb-3">
+            <h2 className="font-serif font-bold text-tertiary text-xl mb-3">
               Contact Info
             </h2>
             <div className="space-y-1">
-              <h2 className="text-secondary font-medium text-lg">Amber Dew</h2>
+              <h2 className="text-tertiary font-medium text-lg">Amber Dew</h2>
               <a href="tel:+61499795969">
-                <p className="text-secondary">P. +61 499 795 969</p>
+                <p className="text-tertiary">P. +61 499 795 969</p>
               </a>
               <a href="mailto:amber@landlaunch.com.au">
-                <p className="text-secondary">amber@landlaunch.com.au</p>
+                <p className="text-tertiary">amber@landlaunch.com.au</p>
               </a>
             </div>
           </div>
