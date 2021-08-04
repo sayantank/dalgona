@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     fontFamily: {
       sans: ["Poppins", "sans-serif"],
-      serif: ["Libre Baskerville", "serif"],
+      serif: ["Brigitka", "serif"],
     },
     extend: {
       colors: {

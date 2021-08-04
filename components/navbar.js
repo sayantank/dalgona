@@ -51,7 +51,7 @@ export default function Navbar() {
                     <a
                       key={item.name}
                       href={item.href}
-                      className="font-medium text-tertiary font-serif"
+                      className="font-medium text-tertiary"
                     >
                       {item.name}
                     </a>
@@ -110,7 +110,7 @@ export default function Navbar() {
                       <a
                         key={item.name}
                         href={item.href}
-                        className="block px-3 py-2 rounded-md text-base font-serif font-semibold text-tertiary hover:bg-gray-50"
+                        className="block px-3 py-2 rounded-md text-base font-semibold text-tertiary hover:bg-gray-50"
                       >
                         {item.name}
                       </a>

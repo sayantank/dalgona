@@ -345,7 +345,7 @@ export default function Home() {
         {/* RANDOM TEXT SECTION */}
 
         <Container>
-          <h1 className="font-serif text-center text-xl md:text-2xl text-quaternary my-16">
+          <h1 className="font-serif text-center text-2xl md:text-3xl text-quaternary my-16 tracking-wider">
             THE IDEA OF DALGONA AT DUNEED IS TO CREATE A SUSTAINABLE COMMUNITY
             FOR THE PEOPLE OF GEELONG WHICH IS AS LOCAL AS YOUR COFFEE. OUR
             MASTERPLANNED COMMUNITY IS DEVELOPED BY A LOCAL GEELONG COMPANY
