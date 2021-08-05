@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <div className="flex flex-col">
       <div className="bg-quaternary py-12 px-2 md:px-8 flex flex-col md:flex-row md:space-x-16 items-center md:items-start">
-        <div className="grid grid-cols-1 md:grid-cols-2 w-96 md:w-2/5 gap-8 px-12 md:px-0 mb-8 md:mb-0">
+        <div className="grid grid-cols-1 md:grid-cols-2 w-4/5 md:w-2/5 gap-8 px-12 md:px-0 mb-8 md:mb-0">
           <div className="flex flex-col space-y-1 justify-center">
             {/* <p className="text-xs font-medium text-tertiary">&nbsp;</p> */}
             <Image
