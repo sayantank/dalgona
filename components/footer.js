@@ -9,8 +9,8 @@ export default function Footer() {
             {/* <p className="text-xs font-medium text-tertiary">&nbsp;</p> */}
             <Image
               src="/images/dalgona-logo.png"
-              width={400}
-              height={200}
+              width={150}
+              height={50}
               layout="responsive"
             />
           </div>
