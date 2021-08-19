@@ -9,9 +9,9 @@ module.exports = {
     extend: {
       colors: {
         primary: "#ddb98c",
-        secondary: "#6a6054",
-        tertiary: "#343332",
-        quaternary: "#FBFBF2",
+        secondary: "#b6d1d4",
+        tertiary: "#493e36",
+        quaternary: "#cbd4b2",
       },
       flex: {
         2: "2 2 0%",
@@ -28,6 +28,7 @@ module.exports = {
         "1/4": "25%",
       },
       maxWidth: {
+        "7/10": "70%",
         "9/10": "90%",
         "1/4": "25%",
       },

@@ -14,8 +14,8 @@
 
 :root {
   --primary: #ddb98c;
-  --secondary: #6a6054;
-  --tertiary: #343332;
+  --secondary: #b6d1d4;
+  --tertiary: #493e36;
 }
 
 body {
@@ -30,6 +30,10 @@ h1,
 h2,
 h3 {
   letter-spacing: 0.05em;
+}
+
+.border-image {
+  border: 4px solid white !important;
 }
 /* 
 * {

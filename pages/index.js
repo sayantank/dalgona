@@ -13,12 +13,12 @@ export default function Home() {
           <div className="flex flex-col space-y-8">
             <div className="w-full flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8">
               <div className="flex-1">
-                <h1 className="font-serif text-3xl md:text-4xl text-quaternary mb-4">
+                <h1 className="font-serif text-3xl md:text-4xl text-tertiary mb-4">
                   THE DALGONA AT DUNEED
                 </h1>
               </div>
               <div className="flex-2">
-                <div className="text-quaternary font-light md:text-sm lg:text-base space-y-4">
+                <div className="text-tertiary md:text-sm lg:text-base space-y-4">
                   <p>
                     Inspired by the Victorian Culture, we deliver to you the
                     perfect land estate manifested with the amalgamation of our
@@ -40,7 +40,8 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="flex space-x-4">
+
+            {/* <div className="flex space-x-4">
               <div className="w-full flex flex-col sm:flex-row space-y-4 md:space-y-0 md:space-x-8">
                 <div className="flex-1">
                   <Image
@@ -58,6 +59,30 @@ export default function Home() {
                     src="https://images.unsplash.com/photo-1599809275671-b5942cabc7a2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8"
                   />
                 </div>
+              </div>
+            </div> */}
+          </div>
+        </Container>
+        <Container>
+          <div>
+            <div className="flex md:flex-row flex-col ">
+              <div className="flex-1 md:-mr-12 md:z-10 mb-4 ">
+                <Image
+                  layout="responsive"
+                  width={4}
+                  height={3}
+                  className="border-image"
+                  src="https://images.unsplash.com/photo-1599809275671-b5942cabc7a2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8"
+                />
+              </div>
+              <div className="flex-1 md:mt-12">
+                <Image
+                  layout="responsive"
+                  width={4}
+                  height={3}
+                  className="border-image"
+                  src="https://images.unsplash.com/photo-1599809275671-b5942cabc7a2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8"
+                />
               </div>
             </div>
           </div>
@@ -105,12 +130,12 @@ export default function Home() {
           <div className="flex flex-col space-y-8">
             <div className="w-full flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8">
               <div className="flex-1">
-                <h1 className="font-serif text-3xl md:text-4xl text-quaternary mb-4">
+                <h1 className="font-serif text-3xl md:text-4xl text-tertiary mb-4">
                   MT DUNEED & BEYOND
                 </h1>
               </div>
               <div className="flex-2">
-                <div className="text-quaternary font-light md:text-sm lg:text-base space-y-4">
+                <div className="text-tertiary md:text-sm lg:text-base space-y-4">
                   <p>
                     Located near the surf coast highway, The Dalgona at Duneed
                     is situated right between Geelong CBD and The Great Ocean
@@ -162,9 +187,51 @@ export default function Home() {
         {/* DALGONA LIVING SECTION */}
 
         <Container>
+          <div className="grid md:grid-cols-3 grid-cols-1">
+            <div className="md:border-r-2 border-b-2 border-tertiary flex flex-col items-center justify-center py-5">
+              <h1 className="font-serif text-4xl md:text-5xl text-tertiary">
+                25 mins
+              </h1>
+              <p className="text-tertiary font-medium">to the City Centre</p>
+            </div>
+
+            <div className="md:border-r-2 border-b-2 border-tertiary flex flex-col items-center justify-center py-5">
+              <h1 className="font-serif text-4xl md:text-5xl text-tertiary">
+                25 mins
+              </h1>
+              <p className="text-tertiary font-medium">to the City Centre</p>
+            </div>
+            <div className="border-b-2 border-tertiary flex flex-col items-center justify-center py-5">
+              <h1 className="font-serif text-4xl md:text-5xl text-tertiary">
+                25 mins
+              </h1>
+              <p className="text-tertiary font-medium">to the City Centre</p>
+            </div>
+            <div className="md:border-r-2 border-b-2 md:border-b-0 border-tertiary flex flex-col items-center justify-center py-5">
+              <h1 className="font-serif text-4xl md:text-5xl text-tertiary">
+                25 mins
+              </h1>
+              <p className="text-tertiary font-medium">to the City Centre</p>
+            </div>
+            <div className="md:border-r-2 border-b-2 md:border-b-0 border-tertiary flex flex-col items-center justify-center py-5">
+              <h1 className="font-serif text-4xl md:text-5xl text-tertiary">
+                25 mins
+              </h1>
+              <p className="text-tertiary font-medium">to the City Centre</p>
+            </div>
+            <div className="border-tertiary flex flex-col items-center justify-center py-5">
+              <h1 className="font-serif text-4xl md:text-5xl text-tertiary">
+                25 mins
+              </h1>
+              <p className="text-tertiary font-medium">to the City Centre</p>
+            </div>
+          </div>
+        </Container>
+
+        <Container>
           <div className="flex flex-col space-y-8">
             <div>
-              <h1 className="font-serif text-3xl md:text-4xl text-quaternary mb-4">
+              <h1 className="font-serif text-3xl md:text-4xl text-tertiary mb-4">
                 THE DALGONA
                 <br />
                 LIVING
@@ -180,7 +247,7 @@ export default function Home() {
                     layout="responsive"
                   />
                 </div>
-                <div className="text-quaternary font-light md:text-sm lg:text-base space-y-2">
+                <div className="text-tertiary md:text-sm lg:text-base space-y-2">
                   <h2 className="font-serif text-xl">THE DALGONA LIVING</h2>
                   <p>
                     Located near the surf coast highway, The Dalgona at Duneed
@@ -201,7 +268,7 @@ export default function Home() {
                     layout="responsive"
                   />
                 </div>
-                <div className="text-quaternary font-light md:text-sm lg:text-base space-y-2">
+                <div className="text-tertiary md:text-sm lg:text-base space-y-2">
                   <h2 className="font-serif text-xl">THE DALGONA LIVING</h2>
                   <p>
                     Located near the surf coast highway, The Dalgona at Duneed
@@ -222,7 +289,7 @@ export default function Home() {
                     layout="responsive"
                   />
                 </div>
-                <div className="text-quaternary font-light md:text-sm lg:text-base space-y-2">
+                <div className="text-tertiary md:text-sm lg:text-base space-y-2">
                   <h2 className="font-serif text-xl">THE DALGONA LIVING</h2>
                   <p>
                     Located near the surf coast highway, The Dalgona at Duneed
@@ -321,10 +388,10 @@ export default function Home() {
               />
             </div>
             <div className="flex-1 mb-8 md:mb-0">
-              <h1 className="font-serif text-3xl md:text-4xl text-quaternary my-4">
+              <h1 className="font-serif text-3xl md:text-4xl text-tertiary my-4">
                 INSPIRATION
               </h1>
-              <div className="text-quaternary font-light text-base space-y-4">
+              <div className="text-tertiary text-base space-y-4">
                 <p>
                   The true essence of our beautiful culture celebrated by the
                   millions of beautiful people in our country has been brought
@@ -344,14 +411,17 @@ export default function Home() {
 
         {/* RANDOM TEXT SECTION */}
 
+        <div className="bg-quaternary py-8">
+          <Container>
+            <h1 className="font-serif text-center text-2xl md:text-3xl text-tertiary my-16 tracking-wider">
+              THE IDEA OF DALGONA AT DUNEED IS TO CREATE A SUSTAINABLE COMMUNITY
+              FOR THE PEOPLE OF GEELONG WHICH IS AS LOCAL AS YOUR COFFEE. OUR
+              MASTERPLANNED COMMUNITY IS DEVELOPED BY A LOCAL GEELONG COMPANY
+              “GAAGE DEVELOPMENTS”.
+            </h1>
+          </Container>
+        </div>
         <Container>
-          <h1 className="font-serif text-center text-2xl md:text-3xl text-quaternary my-16 tracking-wider">
-            THE IDEA OF DALGONA AT DUNEED IS TO CREATE A SUSTAINABLE COMMUNITY
-            FOR THE PEOPLE OF GEELONG WHICH IS AS LOCAL AS YOUR COFFEE. OUR
-            MASTERPLANNED COMMUNITY IS DEVELOPED BY A LOCAL GEELONG COMPANY
-            “GAAGE DEVELOPMENTS”.
-          </h1>
-
           <div className="mt-8">
             <Image
               src="/images/life.png"

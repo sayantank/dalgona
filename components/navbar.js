@@ -13,19 +13,76 @@ const navigation = [
 
 export default function Navbar() {
   return (
-    <div className="z-20 w-full sm:absolute bg-quaternary sm:py-4 py-2">
+    <div className="z-20 w-full sm:absolute bg-white sm:py-4 py-2">
       <Popover>
         {({ open }) => (
           <>
             <div className="max-w-7xl mx-auto px-4 sm:px-6">
               <nav
-                className="relative flex items-center justify-between sm:h-10 md:justify-end w-dull"
+                className="relative flex items-center justify-center w-dull"
                 aria-label="Global"
               >
-                <div className="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">
+                <div className="flex flex-1 items-center justify-between max-w-9/10 md:max-w-7/10">
+                  <a
+                    href="#"
+                    className="hidden md:block font-medium text-tertiary"
+                  >
+                    For Sale
+                  </a>
+                  <a
+                    href="#"
+                    className="hidden md:block font-medium text-tertiary"
+                  >
+                    About
+                  </a>
+                  <a
+                    href="#"
+                    className="hidden md:block font-medium text-tertiary"
+                  >
+                    Community
+                  </a>
+                  <a href="#">
+                    <div className="mt-2">
+                      <Image
+                        // className="h-8 w-auto sm:h-10"
+
+                        src="/images/dalgona-logo.png"
+                        alt=""
+                        layout="fixed"
+                        height={50}
+                        width={100}
+                      />
+                    </div>
+                  </a>
+                  <div className="-mr-2 flex items-center md:hidden">
+                    <Popover.Button className="rounded-md p-2 inline-flex items-center justify-center text-tertiary">
+                      <span className="sr-only">Open main menu</span>
+                      <MenuIcon className="h-6 w-6" aria-hidden="true" />
+                    </Popover.Button>
+                  </div>
+                  <a
+                    href="#"
+                    className="hidden md:block font-medium text-tertiary"
+                  >
+                    For Sale
+                  </a>
+                  <a
+                    href="#"
+                    className="hidden md:block font-medium text-tertiary"
+                  >
+                    About
+                  </a>
+                  <a
+                    href="#"
+                    className="hidden md:block font-medium text-tertiary"
+                  >
+                    Community
+                  </a>
+                </div>
+
+                {/* <div className="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">
                   <div className="flex items-center justify-between w-full md:w-auto">
                     <a href="#">
-                      <span className="sr-only">Workflow</span>
                       <div className="mt-2">
                         <Image
                           // className="h-8 w-auto sm:h-10"
@@ -56,7 +113,8 @@ export default function Navbar() {
                       {item.name}
                     </a>
                   ))}
-                </div>
+                </div> */}
+
                 {/* <div className="hidden md:absolute md:flex md:items-center md:justify-end md:inset-y-0 md:right-0">
                   <span className="inline-flex rounded-md shadow">
                     <a
