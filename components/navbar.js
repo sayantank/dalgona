@@ -153,7 +153,7 @@ export default function Navbar() {
                         alt=""
                         layout="fixed"
                         height={50}
-                        width={100}
+                        width={150}
                       />
                     </div>
                     <div className="-mr-2">
