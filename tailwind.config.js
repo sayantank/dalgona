@@ -15,6 +15,7 @@ module.exports = {
       },
       flex: {
         2: "2 2 0%",
+        3: "3 3 0%",
       },
       height: {
         "80vh": "80vh",

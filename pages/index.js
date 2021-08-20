@@ -411,7 +411,17 @@ export default function Home() {
 
         {/* RANDOM TEXT SECTION */}
 
-        <div className="bg-quaternary py-8">
+        <div className="bg-quaternary py-8 relative">
+          <div className="absolute w-full -mt-16 flex justify-center">
+            <div className="h-24 w-24">
+              <Image
+                layout="responsive"
+                width={1}
+                height={1}
+                src="/images/dalgona-icon.png"
+              />
+            </div>
+          </div>
           <Container>
             <h1 className="font-serif text-center text-2xl md:text-3xl text-tertiary my-16 tracking-wider">
               THE IDEA OF DALGONA AT DUNEED IS TO CREATE A SUSTAINABLE COMMUNITY
@@ -429,6 +439,49 @@ export default function Home() {
               height={1000}
               layout="responsive"
             />
+          </div>
+        </Container>
+
+        <Container>
+          <div className="flex flex-col space-y-4">
+            <div className="flex justify-between items-center">
+              <h1 className="font-serif text-3xl md:text-4xl text-tertiary my-4">
+                Updates
+              </h1>
+              <p>See All</p>
+            </div>
+            <div className="flex flex-col md:flex-row md:space-x-8 space-y-4 md:space-y-8">
+              <div className="flex-1 flex flex-col space-y-4">
+                <Image
+                  layout="responsive"
+                  width={4}
+                  height={3}
+                  className="border-image"
+                  src="https://images.unsplash.com/photo-1599809275671-b5942cabc7a2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8"
+                />
+                <div className="text-tertiary text-base space-y-4">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet{" "}
+                  </p>
+                </div>
+              </div>
+              <div className="flex-1 flex flex-col space-y-4 mt-10">
+                <Image
+                  layout="responsive"
+                  width={4}
+                  height={3}
+                  className="border-image"
+                  src="https://images.unsplash.com/photo-1599809275671-b5942cabc7a2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8"
+                />
+                <div className="text-tertiary text-base space-y-4">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet{" "}
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </Container>
         {/* <Container>
