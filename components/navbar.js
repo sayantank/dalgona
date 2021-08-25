@@ -13,7 +13,7 @@ const navigation = [
 
 export default function Navbar() {
   return (
-    <div className="z-20 w-full sm:absolute bg-white sm:py-4 py-2">
+    <div className="z-20 sm:absolute w-full bg-white sm:py-4 py-2">
       <Popover>
         {({ open }) => (
           <>

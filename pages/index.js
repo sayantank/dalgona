@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <>
+    <div className="z-10">
       <Hero />
       <div className="overflow-hidden">
         {/* DALGONA AT DUNEED SECTION */}
@@ -237,8 +237,8 @@ export default function Home() {
                 LIVING
               </h1>
             </div>
-            <div className="flex flex-col md:flex-row md:flex-wrap space-y-8 md:space-y-0 md:space-x-4">
-              <div className="flex-1 flex flex-col space-y-6">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 gap-y-10">
+              <div className="flex flex-col space-y-6">
                 <div>
                   <Image
                     src="https://images.unsplash.com/photo-1599809275671-b5942cabc7a2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8"
@@ -248,13 +248,21 @@ export default function Home() {
                   />
                 </div>
                 <div className="text-tertiary md:text-sm lg:text-base space-y-2">
-                  <h2 className="font-serif text-xl">Armstrong Creek Town Centre</h2>
+                  <h2 className="font-serif text-xl">
+                    Armstrong Creek Town Centre
+                  </h2>
                   <p>
-                  The ultra-modern Towncentre is the largest privately owned town centre with a deliverable value of $1 billion dollars to the residents of Armstrong Creek and Mt Duneed. The town centre plan includes supermarkets, restaurants, retail centre, business parks, employment precincts and leisure destinations. A massive retail centre is already delivered in the area with more infrastructure coming soon.
+                    The ultra-modern Towncentre is the largest privately owned
+                    town centre with a deliverable value of $1 billion dollars
+                    to the residents of Armstrong Creek and Mt Duneed. The town
+                    centre plan includes supermarkets, restaurants, retail
+                    centre, business parks, employment precincts and leisure
+                    destinations. A massive retail centre is already delivered
+                    in the area with more infrastructure coming soon.
                   </p>
                 </div>
               </div>
-              <div className="flex-1 flex flex-col space-y-6">
+              <div className="flex flex-col space-y-6">
                 <div>
                   <Image
                     src="https://images.unsplash.com/photo-1599809275671-b5942cabc7a2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8"
@@ -264,13 +272,22 @@ export default function Home() {
                   />
                 </div>
                 <div className="text-tertiary md:text-sm lg:text-base space-y-2">
-                  <h2 className="font-serif text-xl">Geelong Lutheran College</h2>
+                  <h2 className="font-serif text-xl">
+                    Geelong Lutheran College
+                  </h2>
                   <p>
-                  Geelong Lutheran College Armstrong Creek, established in 2009, is a co-educational Primary and Secondary school offering education for students from Prep to Year 12. The Lutheran Education system is the second largest non-government system providing for over 40,000 students across Australia. It is prestigious christian values based school, catering a multicultural community at Armstrong Creek.
+                    Geelong Lutheran College Armstrong Creek, established in
+                    2009, is a co-educational Primary and Secondary school
+                    offering education for students from Prep to Year 12. The
+                    Lutheran Education system is the second largest
+                    non-government system providing for over 40,000 students
+                    across Australia. It is prestigious christian values based
+                    school, catering a multicultural community at Armstrong
+                    Creek.
                   </p>
                 </div>
               </div>
-              <div className="flex-1 flex flex-col space-y-6">
+              <div className="flex flex-col space-y-6">
                 <div>
                   <Image
                     src="https://images.unsplash.com/photo-1599809275671-b5942cabc7a2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8"
@@ -282,11 +299,16 @@ export default function Home() {
                 <div className="text-tertiary md:text-sm lg:text-base space-y-2">
                   <h2 className="font-serif text-xl">The Creek & The Parks</h2>
                   <p>
-                  The estate is located adjacent to a lush green and serene creek which stretches for miles. Further, there are cycling/walking pathways, parklands and water bodies located in the area which makes living close to the nature a delightful experience. You’ll be living at a location where you’ll feel like being outdoors and enjoying it.
+                    The estate is located adjacent to a lush green and serene
+                    creek which stretches for miles. Further, there are
+                    cycling/walking pathways, parklands and water bodies located
+                    in the area which makes living close to the nature a
+                    delightful experience. You’ll be living at a location where
+                    you’ll feel like being outdoors and enjoying it.
                   </p>
                 </div>
               </div>
-              <div className="flex-1 flex flex-col space-y-6">
+              <div className="flex flex-col space-y-6">
                 <div>
                   <Image
                     src="https://images.unsplash.com/photo-1599809275671-b5942cabc7a2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8"
@@ -298,11 +320,15 @@ export default function Home() {
                 <div className="text-tertiary md:text-sm lg:text-base space-y-2">
                   <h2 className="font-serif text-xl">Surf Coast Highway</h2>
                   <p>
-                    It is a huge advantage when you’re close to the highway. The surf coast Highway is connected to the whites road and provides easy access to reach Geelong CBD or Torquay in just 15 minutes. It is just  a kilometre away from the estate entrance.
+                    It is a huge advantage when you’re close to the highway. The
+                    surf coast Highway is connected to the whites road and
+                    provides easy access to reach Geelong CBD or Torquay in just
+                    15 minutes. It is just a kilometre away from the estate
+                    entrance.
                   </p>
                 </div>
               </div>
-              <div className="flex-1 flex flex-col space-y-6">
+              <div className="flex flex-col space-y-6">
                 <div>
                   <Image
                     src="https://images.unsplash.com/photo-1599809275671-b5942cabc7a2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8"
@@ -312,13 +338,22 @@ export default function Home() {
                   />
                 </div>
                 <div className="text-tertiary md:text-sm lg:text-base space-y-2">
-                  <h2 className="font-serif text-xl">TLC Primary Care & Aged Care</h2>
+                  <h2 className="font-serif text-xl">
+                    TLC Primary Care & Aged Care
+                  </h2>
                   <p>
-                  TLC is a dedicated centre to recieve personalised, professional and quality healthcare services, allied heathcare services and aged care services. Located just minutes from Dalgona At Duneed, the primary healthcare centre also provides specialised services such as chronic disease management, dietetics, hydrotherapy, nurse immuniser, podiatry and physiotherapy. Furthermore, the aged care center is closeby as well.
+                    TLC is a dedicated centre to recieve personalised,
+                    professional and quality healthcare services, allied
+                    heathcare services and aged care services. Located just
+                    minutes from Dalgona At Duneed, the primary healthcare
+                    centre also provides specialised services such as chronic
+                    disease management, dietetics, hydrotherapy, nurse
+                    immuniser, podiatry and physiotherapy. Furthermore, the aged
+                    care center is closeby as well.
                   </p>
                 </div>
               </div>
-              <div className="flex-1 flex flex-col space-y-6">
+              <div className="flex flex-col space-y-6">
                 <div>
                   <Image
                     src="https://images.unsplash.com/photo-1599809275671-b5942cabc7a2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8"
@@ -328,9 +363,19 @@ export default function Home() {
                   />
                 </div>
                 <div className="text-tertiary md:text-sm lg:text-base space-y-2">
-                  <h2 className="font-serif text-xl">Mirripoa Primary School</h2>
+                  <h2 className="font-serif text-xl">
+                    Mirripoa Primary School
+                  </h2>
                   <p>
-                  A primary school with a state of the art learning facility designed using latest research on effective learning environments. The professional and caring staff of the school utilises evidence based teaching strategies to deliver strong academic achievement. The school curriculum is based on the Victorian Curriculum with a strong focus on literacy and numeracy. Moreover, the school offers specialist programs in arts, physical education, LOTE and visual arts.
+                    A primary school with a state of the art learning facility
+                    designed using latest research on effective learning
+                    environments. The professional and caring staff of the
+                    school utilises evidence based teaching strategies to
+                    deliver strong academic achievement. The school curriculum
+                    is based on the Victorian Curriculum with a strong focus on
+                    literacy and numeracy. Moreover, the school offers
+                    specialist programs in arts, physical education, LOTE and
+                    visual arts.
                   </p>
                 </div>
               </div>
@@ -578,6 +623,6 @@ export default function Home() {
           <div className="mb-20"></div>
         </Container>
       </div>
-    </>
+    </div>
   );
 }
