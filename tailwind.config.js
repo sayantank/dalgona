@@ -12,6 +12,9 @@ module.exports = {
         secondary: "#b6d1d4",
         tertiary: "#493e36",
         quaternary: "#cbd4b2",
+          'sea-foam': '#92c8cc',
+          'mocha': '#958a7b',
+          'charcoal': '#5c5b5c'
       },
       flex: {
         2: "2 2 0%",

@@ -1,10 +1,17 @@
 import Container from "../components/container";
 import Hero from "../components/hero";
 import Image from "next/image";
+import Head from 'next/head'
 
 export default function Home() {
   return (
     <div className="z-10">
+      <Head>
+        <title>Dalgona at Mt. Duneed</title>
+        <link rel="icon" href="/favicon.ico" />
+        <meta name="description" content={"An exciting new land release coming to Mt. Duneed."} />
+        <meta property="og:image" content={"https://i.ibb.co/YZyD2XV/dalgona-icon-full-color-rgb-1814px-72ppi.jpg"} key="ogimage" />
+      </Head>
       <Hero />
       <div className="overflow-hidden">
         {/* DALGONA AT DUNEED SECTION */}
@@ -148,12 +155,7 @@ export default function Home() {
               </div>
             </div>
             <div className="mt-8">
-              <Image
-                src="/images/map.jpeg"
-                width={2000}
-                height={1000}
-                layout="responsive"
-              />
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7297.673613192682!2d144.32230551219698!3d-38.231830949187646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad46cece911d4cd%3A0x4ac8a0923442541b!2s110%20Whites%20Rd%2C%20Mount%20Duneed%20VIC%203217%2C%20Australia!5e0!3m2!1sen!2sin!4v1629918195205!5m2!1sen!2sin" width="100%" height="600"></iframe>
             </div>
           </div>
         </Container>
@@ -190,40 +192,40 @@ export default function Home() {
           <div className="grid md:grid-cols-3 grid-cols-1">
             <div className="md:border-r-2 border-b-2 border-tertiary flex flex-col items-center justify-center py-5">
               <h1 className="font-serif text-4xl md:text-5xl text-tertiary">
-                25 mins
+                3 mins
               </h1>
-              <p className="text-tertiary font-medium">to the City Centre</p>
+              <p className="text-tertiary font-medium">to Geelong Lutheran College</p>
             </div>
 
             <div className="md:border-r-2 border-b-2 border-tertiary flex flex-col items-center justify-center py-5">
               <h1 className="font-serif text-4xl md:text-5xl text-tertiary">
-                25 mins
+                3 mins
               </h1>
-              <p className="text-tertiary font-medium">to the City Centre</p>
+              <p className="text-tertiary font-medium">to TLC Aged Care</p>
             </div>
             <div className="border-b-2 border-tertiary flex flex-col items-center justify-center py-5">
               <h1 className="font-serif text-4xl md:text-5xl text-tertiary">
-                25 mins
+                2 mins
               </h1>
-              <p className="text-tertiary font-medium">to the City Centre</p>
+              <p className="text-tertiary font-medium">to Surf Coast Highway</p>
             </div>
             <div className="md:border-r-2 border-b-2 md:border-b-0 border-tertiary flex flex-col items-center justify-center py-5">
               <h1 className="font-serif text-4xl md:text-5xl text-tertiary">
-                25 mins
+                4 mins
               </h1>
-              <p className="text-tertiary font-medium">to the City Centre</p>
+              <p className="text-tertiary font-medium">to Mirrapoa Primary School</p>
             </div>
             <div className="md:border-r-2 border-b-2 md:border-b-0 border-tertiary flex flex-col items-center justify-center py-5">
               <h1 className="font-serif text-4xl md:text-5xl text-tertiary">
-                25 mins
+                5 mins
               </h1>
-              <p className="text-tertiary font-medium">to the City Centre</p>
+              <p className="text-tertiary font-medium">to Armstrong Creek Town Centre</p>
             </div>
             <div className="border-tertiary flex flex-col items-center justify-center py-5">
               <h1 className="font-serif text-4xl md:text-5xl text-tertiary">
-                25 mins
+                8 mins
               </h1>
-              <p className="text-tertiary font-medium">to the City Centre</p>
+              <p className="text-tertiary font-medium">to Mount Duneed Recreation Reserve</p>
             </div>
           </div>
         </Container>
@@ -241,10 +243,11 @@ export default function Home() {
               <div className="flex flex-col space-y-6">
                 <div>
                   <Image
-                    src="https://images.unsplash.com/photo-1599809275671-b5942cabc7a2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8"
+                    src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
                     width={4}
                     height={3}
                     layout="responsive"
+                    objectFit="cover"
                   />
                 </div>
                 <div className="text-tertiary md:text-sm lg:text-base space-y-2">
@@ -265,10 +268,11 @@ export default function Home() {
               <div className="flex flex-col space-y-6">
                 <div>
                   <Image
-                    src="https://images.unsplash.com/photo-1599809275671-b5942cabc7a2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8"
+                    src="https://images.unsplash.com/photo-1583468982228-19f19164aee2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1213&q=80"
                     width={4}
                     height={3}
                     layout="responsive"
+                    objectFit="cover"
                   />
                 </div>
                 <div className="text-tertiary md:text-sm lg:text-base space-y-2">
@@ -290,10 +294,11 @@ export default function Home() {
               <div className="flex flex-col space-y-6">
                 <div>
                   <Image
-                    src="https://images.unsplash.com/photo-1599809275671-b5942cabc7a2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8"
+                    src="https://images.unsplash.com/photo-1535964937449-cedc853d6598?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1570&q=80"
                     width={4}
                     height={3}
                     layout="responsive"
+                    objectFit="cover"
                   />
                 </div>
                 <div className="text-tertiary md:text-sm lg:text-base space-y-2">
@@ -311,10 +316,11 @@ export default function Home() {
               <div className="flex flex-col space-y-6">
                 <div>
                   <Image
-                    src="https://images.unsplash.com/photo-1599809275671-b5942cabc7a2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8"
+                    src="https://images.unsplash.com/photo-1566054299976-3eb6f6a44ead?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=668&q=80"
                     width={4}
                     height={3}
                     layout="responsive"
+                    objectFit="cover"
                   />
                 </div>
                 <div className="text-tertiary md:text-sm lg:text-base space-y-2">
@@ -331,10 +337,11 @@ export default function Home() {
               <div className="flex flex-col space-y-6">
                 <div>
                   <Image
-                    src="https://images.unsplash.com/photo-1599809275671-b5942cabc7a2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8"
+                    src="https://images.unsplash.com/photo-1612277795421-9bc7706a4a34?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
                     width={4}
                     height={3}
                     layout="responsive"
+                    objectFit="cover"
                   />
                 </div>
                 <div className="text-tertiary md:text-sm lg:text-base space-y-2">
@@ -356,26 +363,19 @@ export default function Home() {
               <div className="flex flex-col space-y-6">
                 <div>
                   <Image
-                    src="https://images.unsplash.com/photo-1599809275671-b5942cabc7a2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8"
+                    src="https://images.unsplash.com/flagged/photo-1551398766-dd525d7c6175?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1300&q=80"
                     width={4}
                     height={3}
                     layout="responsive"
+                    objectFit="cover"
                   />
                 </div>
                 <div className="text-tertiary md:text-sm lg:text-base space-y-2">
                   <h2 className="font-serif text-xl">
-                    Mirripoa Primary School
+                    Future Amenities On Whites Road
                   </h2>
                   <p>
-                    A primary school with a state of the art learning facility
-                    designed using latest research on effective learning
-                    environments. The professional and caring staff of the
-                    school utilises evidence based teaching strategies to
-                    deliver strong academic achievement. The school curriculum
-                    is based on the Victorian Curriculum with a strong focus on
-                    literacy and numeracy. Moreover, the school offers
-                    specialist programs in arts, physical education, LOTE and
-                    visual arts.
+                  Residents of Dalgona At Duneed can expect world-class amenities right at their doorstep on the Whites road. The Precinct Structure Plan consists of an activity centre, community complex, P-6 School, and active open spaces right at the doorstep.
                   </p>
                 </div>
               </div>
@@ -459,13 +459,14 @@ export default function Home() {
           <div className="flex flex-col-reverse md:flex-row md:space-x-8">
             <div className="flex-1">
               <Image
-                src="https://images.unsplash.com/photo-1599809275671-b5942cabc7a2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8"
+                src="/images/inspiration.jpg"
                 width={1}
                 height={1}
                 layout="responsive"
+                objectFit="cover"
               />
             </div>
-            <div className="flex-1 mb-8 md:mb-0">
+            <div className="flex-1 mb-8 md:my-auto">
               <h1 className="font-serif text-3xl md:text-4xl text-tertiary my-4">
                 INSPIRATION
               </h1>
@@ -512,15 +513,16 @@ export default function Home() {
         <Container>
           <div className="mt-8">
             <Image
-              src="/images/life.png"
+              src="https://images.unsplash.com/photo-1556911073-a517e752729c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
               width={2000}
               height={1000}
               layout="responsive"
+              objectFit="cover"
             />
           </div>
         </Container>
 
-        <Container>
+        {/* <Container>
           <div className="flex flex-col space-y-4">
             <div className="flex justify-between items-center">
               <h1 className="font-serif text-3xl md:text-4xl text-tertiary my-4">
@@ -561,7 +563,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </Container>
+        </Container> */}
         {/* <Container>
           <h1 className="font-serif text-center md:text-left text-3xl md:text-4xl text-primary mb-4 md:mb-0">
             UPDATES

@@ -22,7 +22,18 @@ export default function Navbar() {
                 className="relative flex items-center justify-center w-dull"
                 aria-label="Global"
               >
-                <div className="flex flex-1 items-center justify-between max-w-9/10 md:max-w-7/10">
+                <div className="mt-2">
+                      <Image
+                        // className="h-8 w-auto sm:h-10"
+
+                        src="/images/dalgona-logo.png"
+                        alt=""
+                        layout="fixed"
+                        height={50}
+                        width={150}
+                      />
+                    </div>
+                {/* <div className="flex flex-1 items-center justify-between max-w-9/10 md:max-w-7/10">
                   <a
                     href="#"
                     className="hidden md:block font-medium text-tertiary"
@@ -78,7 +89,7 @@ export default function Navbar() {
                   >
                     Community
                   </a>
-                </div>
+                </div> */}
 
                 {/* <div className="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">
                   <div className="flex items-center justify-between w-full md:w-auto">

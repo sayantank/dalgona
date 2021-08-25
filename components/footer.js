@@ -153,7 +153,7 @@ export default function Footer() {
       </div> */}
       <div className="bg-tertiary py-5 flex items-center justify-center">
         <p className="text-xs text-white">
-          &#169; Copyright 2021. All rights reserved. Designed by XXXX
+          &#169; Copyright 2021. All rights reserved.
         </p>
       </div>
     </div>
