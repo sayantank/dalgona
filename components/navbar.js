@@ -1,7 +1,8 @@
 import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
-import { MenuIcon, XIcon } from "@heroicons/react/outline";
+import { MenuIcon, PhoneIcon, XIcon } from "@heroicons/react/outline";
 import Image from "next/image";
+import Link from "next/link";
 
 const navigation = [
   { name: "Documentation", href: "#" },
@@ -22,17 +23,29 @@ export default function Navbar() {
                 className="relative flex items-center justify-center w-dull"
                 aria-label="Global"
               >
+                <div className="absolute right-0 mx-2">
+                  <Link href="/contact">
+                    <button className="hidden md:block bg-secondary p-2 font-semibold text-tertiary rounded-md px-4">
+                      Contact
+                    </button>
+                  </Link>
+                  <Link href="/contact">
+                    <button className="md:hidden bg-secondary p-2 font-semibold text-tertiary rounded-md">
+                      <PhoneIcon className="h-5 w-5" />
+                    </button>
+                  </Link>
+                </div>
                 <div className="mt-2">
-                      <Image
-                        // className="h-8 w-auto sm:h-10"
+                  <Image
+                    // className="h-8 w-auto sm:h-10"
 
-                        src="/images/dalgona-logo.png"
-                        alt=""
-                        layout="fixed"
-                        height={50}
-                        width={150}
-                      />
-                    </div>
+                    src="/images/dalgona-logo.png"
+                    alt=""
+                    layout="fixed"
+                    height={50}
+                    width={150}
+                  />
+                </div>
                 {/* <div className="flex flex-1 items-center justify-between max-w-9/10 md:max-w-7/10">
                   <a
                     href="#"
