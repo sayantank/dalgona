@@ -19,16 +19,17 @@ const transporter = nodemailer.createTransport({
 
 const sendMail = async function (req, res) {
 
-    const { name, email, phone, message } = req.body 
+    const { name, email, phone, message, contact, type } = req.body 
     const mailData = {
         from: `${WEBSITE} <${USER}>`,
         to: RECIPIENT,
         subject: `Message From ${name || WEBSITE}`,
-        html: `<div>Name: ${name} <br/><br/>Email: ${email} <br/><br/>Phone: ${phone} <br/><br/> Message: ${message || "None"} <br/><br/></div>`
+        html: `<div>Name: ${name} <br/><br/>Email: ${email} <br/><br/>Phone: ${phone} <br/><br/>Type of Purchaser: ${type} <br/><br/>Preferred method of contact: ${contact} <br/><br/>Message: ${message || "None"} <br/><br/></div>`
     }
 
     transporter.sendMail(mailData, (err, respone) => {
         if(err){
+            console.log(err)
             console.log("error in sending mail.")
             return res.status(500).send({ status: false })
         }else{
