@@ -26,7 +26,7 @@ export default function Hero() {
           src="/videos/dalgona.mp4"
           autoPlay={true}
           muted={true}
-          controls={true}
+          controls={false}
         />
       </div>
     </div>
