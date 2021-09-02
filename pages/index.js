@@ -1,7 +1,7 @@
 import Container from "../components/container";
 import Hero from "../components/hero";
 import Image from "next/image";
-import Head from 'next/head'
+import Head from "next/head";
 
 export default function Home() {
   return (
@@ -27,7 +27,7 @@ export default function Home() {
               <div className="flex-2">
                 <div className="text-tertiary md:text-sm lg:text-base space-y-4">
                   <p>
-                  Inspired by Victoria's unique culture, we invite you to immerse yourself in Geelong's upcoming estate Dalgona at Duneed. Nestled perfectly between Australia's most popular surf coast and the city of Greater Geelong, Dalgona at Duneed offers the essential elements of our daily life; the coffee, the bush, the ocean, the sun, and our serene land. At Dalgona, we are as local as your coffee.
+                  Inspired by Victoria&apos;s unique culture, we invite you to immerse yourself in Geelong&apos;s upcoming estate Dalgona at Duneed. Nestled perfectly between Australia&apos;s most popular surf coast and the city of Greater Geelong, Dalgona at Duneed offers the essential elements of our daily life; the coffee, the bush, the ocean, the sun, and our serene land. At Dalgona, we are as local as your coffee.
                   </p>
                   <p>
                   Dalgona At Duneed is a premium boutique land estate located at Mt Duneed near the surf coast highway and the Armstrong Creek Towncentre, providing future residents with both convenience and adventure at their doorsteps. Explore this vibrant lifestyle at our sustainable master-planned community, consisting of over 170 premium lots designed with you in mind.
@@ -451,7 +451,7 @@ export default function Home() {
               </h1>
               <div className="text-tertiary text-base space-y-4">
                 <p>
-                The true essence of our beautiful culture celebrated by the millions of diverse people in our country has been brought to life at Dalgona At Duneed. Inspired by the love and passion of Victoria's internationally recognised coffee culture, the estate creatively represents elements of this flavour. Consisting of approx 170 spacious lots, including 32 townhouses, with street names representing our international coffee culture, Dalgona at Duneed is unique and they way the locals like it! The estate is adjacent to the serene and beautiful Armstrong creek, hence, connecting you with our awe inspiring mother earth right in your backyard. Live this beautiful Surf Coast lifestyle at our sustainable and functional estate at Mt Duneed. Live The Dalgona Life. #DalgonaAtDuneed.
+                The true essence of our beautiful culture celebrated by the millions of diverse people in our country has been brought to life at Dalgona At Duneed. Inspired by the love and passion of Victoria&apos;s internationally recognised coffee culture, the estate creatively represents elements of this flavour. Consisting of approx 170 spacious lots, including 32 townhouses, with street names representing our international coffee culture, Dalgona at Duneed is unique and they way the locals like it! The estate is adjacent to the serene and beautiful Armstrong creek, hence, connecting you with our awe inspiring mother earth right in your backyard. Live this beautiful Surf Coast lifestyle at our sustainable and functional estate at Mt Duneed. Live The Dalgona Life. #DalgonaAtDuneed.
                 </p>
               </div>
             </div>
