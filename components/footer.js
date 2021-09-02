@@ -56,6 +56,18 @@ export default function Footer() {
               420 Horseshoe Bend Road, Armstrong Creek VIC 3217
             </p>
           </div>
+          <div>
+            <h2 className="font-serif font-bold text-tertiary text-lg">
+              Contact
+            </h2>
+            <p className="text-tertiary">
+              <strong>Amber Dew</strong>
+              <br/>
+              <a href="mailto:amber@landlaunch.com.au">amber@landlaunch.com.au</a>
+              <br/>
+              <a href="tel:+61499795969">+61 499 795 969</a>
+            </p>
+          </div>
         </div>
         <div className="flex-1">
           <div className=" bg-quaternary flex flex-col space-y-4  p-6 md:p-8 rounded-md">

@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
-import { MenuIcon, PhoneIcon, XIcon } from "@heroicons/react/outline";
+import { MenuIcon, PhoneIcon, XIcon, LocationMarkerIcon } from "@heroicons/react/outline";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -23,17 +23,34 @@ export default function Navbar() {
                 className="relative flex items-center justify-center w-dull"
                 aria-label="Global"
               >
-                <div className="absolute right-0 mx-2">
-                  <Link href="/contact">
+                <div className="absolute left-0">
+                  {/* <Link href="/contact">
                     <button className="hidden md:block bg-secondary p-2 font-semibold text-tertiary rounded-md px-4">
                       Contact
                     </button>
-                  </Link>
+                  </Link> */}
+                  <a href="https://www.google.com/maps/dir//110+Whites+Rd+Mount+Duneed+VIC+3217+Australia/@-38.2317414,144.3232809,15z/data=!4m5!4m4!1m0!1m2!1m1!1s0x6ad46cece911d4cd:0x4ac8a0923442541b" target="_blank" rel="noreferrer">
+                    <button className="bg-secondary p-2 font-semibold text-tertiary rounded-md">
+                      <LocationMarkerIcon className="h-5 w-5" />
+                    </button>
+                  </a>
+                  <a href="tel:+61499795969">
+                    <button className="bg-secondary ml-4 p-2 font-semibold text-tertiary rounded-md">
+                      <PhoneIcon className="h-5 w-5" />
+                    </button>
+                  </a>
+                </div>
+                <div className="absolute right-0 mx-2">
                   <Link href="/contact">
+                    <button className="md:block bg-secondary p-2 font-semibold text-tertiary rounded-md px-4">
+                      Contact
+                    </button>
+                  </Link>
+                  {/* <Link href="/contact">
                     <button className="md:hidden bg-secondary p-2 font-semibold text-tertiary rounded-md">
                       <PhoneIcon className="h-5 w-5" />
                     </button>
-                  </Link>
+                  </Link> */}
                 </div>
                 <div className="mt-2">
                   <Image

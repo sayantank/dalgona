@@ -538,7 +538,8 @@ export default function Home() {
                   width={4}
                   height={3}
                   className="border-image"
-                  src="https://images.unsplash.com/photo-1599809275671-b5942cabc7a2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8"
+                  src="https://images.unsplash.com/photo-1560327425-82e6bb1f83ac?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1226&q=80"
+                  objectFit="cover"
                 />
                 <div className="text-tertiary text-base space-y-4">
                   <p>
@@ -558,7 +559,8 @@ Residents of Dalgona would have easy access to the town centre which will be a w
                   width={4}
                   height={3}
                   className="border-image"
-                  src="https://images.unsplash.com/photo-1599809275671-b5942cabc7a2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8"
+                  src="/images/update2.jpg"
+                  objectFit="cover"
                 />
                 <div className="text-tertiary text-base space-y-4">
                   <p>
