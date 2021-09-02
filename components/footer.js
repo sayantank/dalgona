@@ -1,6 +1,46 @@
 import Image from "next/image";
+import { useState } from 'react'
 
 export default function Footer() {
+
+
+  const [submitText, setSubmitText] = useState('Submit')
+
+  const handleSubmit = (e) => {
+    e.preventDefault()
+
+    const name = e.target.name.value;
+    const mobile = e.target.mobile.value;
+    const email = e.target.email.value;
+    const address = e.target.address.value;
+    const message = e.target.message.value;
+
+    let data = {
+      name,
+      email,
+      phone: mobile,
+      contact: mobile,
+      type: address,
+      message
+    }
+  
+    fetch('/api/contact', {
+      method: 'POST',
+      headers: {
+        'Accept': 'application/json, text/plain, */*',
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(data)
+    }).then((res) => {
+      setSubmitText("Form Submitted!")
+      e.target.reset();
+      // console.log('Response received')
+      // if (res.status === 200) {
+      //   console.log('Response succeeded!')
+      // }
+    })  
+  }
+
   return (
     <div className="flex flex-col">
       <div className="bg-white py-10 px-2 md:px-8 flex flex-col-reverse space-y-4 md:space-y-0 md:flex-row md:space-x-8">
@@ -11,15 +51,17 @@ export default function Footer() {
               width={3}
               height={1}
               layout="responsive"
+              objectFit="cover"
             />
           </div>
           <div className="flex flex-col text-center px-10">
             <p className="md:text-xs font-medium text-tertiary">Marketed by</p>
             <Image
               src="/images/landlaunch.png"
-              width={5.5}
+              width={7.5}
               height={1}
               layout="responsive"
+              objectFit="cover"
             />
           </div>
           <div className="flex flex-col text-center px-10">
@@ -27,17 +69,19 @@ export default function Footer() {
             <Image
               src="/images/maax.png"
               width={100}
-              height={50}
+              height={40}
               layout="responsive"
+              objectFit="cover"
             />
           </div>
           <div className="flex flex-col text-center px-10">
             <p className="md:text-xs font-medium text-tertiary">Marketed by</p>
             <Image
               src="/images/gaage.png"
-              width={240}
-              height={100}
+              width={180}
+              height={70}
               layout="responsive"
+              objectFit="cover"
             />
           </div>
           <div>
@@ -74,19 +118,44 @@ export default function Footer() {
             <h1 className="font-serif text-3xl md:text-4xl text-tertiary">
               Contact Us
             </h1>
-            <form className="flex flex-col space-y-4">
+            <form className="flex flex-col space-y-4" onSubmit={handleSubmit}>
               <input
                 className="w-full border-b border-tertiary py-2 px-3 bg-transparent"
                 type="text"
                 placeholder="Name"
+                name="name"
+                required={true}
               />
               <input
                 className="w-full border-b border-tertiary py-2 px-3 bg-transparent"
                 type="text"
                 placeholder="Mobile Number"
+                name="mobile"
+                required={true}
+              />
+              <input
+                className="w-full border-b border-tertiary py-2 px-3 bg-transparent"
+                type="text"
+                placeholder="Email"
+                name="email"
+                required={true}
+              />
+              <input
+                className="w-full border-b border-tertiary py-2 px-3 bg-transparent"
+                type="text"
+                placeholder="Address"
+                name="address"
+                required={true}
+              />
+              <textarea
+                className="w-full border-b border-tertiary py-2 px-3 bg-transparent"
+                type="textbox"
+                placeholder="Message"
+                name="message"
+                required={true}
               />
               <button className="border-none bg-tertiary text-white rounded-md px-4 py-2">
-                Submit
+                {submitText}
               </button>
             </form>
           </div>
