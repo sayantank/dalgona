@@ -42,7 +42,7 @@ export default function Navbar() {
                 </div>
                 <div className="absolute right-0 mx-2">
                   <Link href="/contact">
-                    <button className="md:block bg-secondary p-2 font-semibold text-tertiary rounded-md px-4">
+                    <button className="hidden md:block bg-secondary p-2 font-semibold text-tertiary rounded-md px-4">
                       Contact
                     </button>
                   </Link>
@@ -52,7 +52,7 @@ export default function Navbar() {
                     </button>
                   </Link> */}
                 </div>
-                <div className="mt-2">
+                <div className="hidden md:block mt-2">
                   <Image
                     // className="h-8 w-auto sm:h-10"
 
@@ -61,6 +61,17 @@ export default function Navbar() {
                     layout="fixed"
                     height={50}
                     width={150}
+                  />
+                </div>
+
+                <div className="md:hidden mt-2">
+                  <Image
+                    // className="h-8 w-auto sm:h-10"
+                    src="/images/dalgona-logo.png"
+                    alt=""
+                    layout="fixed"
+                    height={40}
+                    width={120}
                   />
                 </div>
                 {/* <div className="flex flex-1 items-center justify-between max-w-9/10 md:max-w-7/10">
