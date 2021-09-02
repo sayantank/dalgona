@@ -75,7 +75,7 @@ export default function Footer() {
             />
           </div>
           <div className="flex flex-col text-center px-10">
-            <p className="md:text-xs font-medium text-tertiary">Marketed by</p>
+            <p className="md:text-xs font-medium text-tertiary">Delivered by</p>
             <Image
               src="/images/gaage.png"
               width={180}
@@ -102,7 +102,7 @@ export default function Footer() {
           </div>
           <div>
             <h2 className="font-serif font-bold text-tertiary text-lg">
-              Contact
+              Contact Us
             </h2>
             <p className="text-tertiary">
               <strong>Amber Dew</strong>
@@ -116,7 +116,7 @@ export default function Footer() {
         <div className="flex-1">
           <div className=" bg-quaternary flex flex-col space-y-4  p-6 md:p-8 rounded-md">
             <h1 className="font-serif text-3xl md:text-4xl text-tertiary">
-              Contact Us
+             Register your Interest
             </h1>
             <form className="flex flex-col space-y-4" onSubmit={handleSubmit}>
               <input

@@ -25,6 +25,7 @@ export default function Hero() {
         <video
           autoPlay={true}
           muted={true}
+          loop={true}
           // controls={false}
           playsInline={true}
         >

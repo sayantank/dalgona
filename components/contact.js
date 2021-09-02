@@ -53,7 +53,7 @@ const Contact = () => {
 
     return (
         <form id="contact-me" className="w-full max-w-3xl bg-white shadow p-8 text-gray-700 rounded-md mx-auto" onSubmit={handleSubmit}>
-        <h3 className="w-full text-xl md:text-2xl font-bold leading-tight">Contact Us!</h3>
+        <h3 className="w-full text-xl md:text-2xl font-bold leading-tight">Register your Interest!</h3>
         <div className="w-16 h-0.5 bg-mocha mt-6 mb-8 mx-auto"></div>
         <div className="flex flex-wrap mb-3">
           <div className="relative w-full md:w-6/12 md:pr-4 appearance-none label-floating">

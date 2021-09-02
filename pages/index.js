@@ -21,28 +21,16 @@ export default function Home() {
             <div className="w-full flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8">
               <div className="flex-1">
                 <h1 className="font-serif text-3xl md:text-4xl text-tertiary mb-4">
-                  THE DALGONA AT DUNEED
+                  DALGONA AT DUNEED
                 </h1>
               </div>
               <div className="flex-2">
                 <div className="text-tertiary md:text-sm lg:text-base space-y-4">
                   <p>
-                    Inspired by the Victorian Culture, we deliver to you the
-                    perfect land estate manifested with the amalgamation of our
-                    beautiful surf coast culture blended with the essential
-                    elements of our daily life: the coffee, the bush, the ocean,
-                    the sun, and our serene land. At Dalgona, we are as local as
-                    your coffee.
+                  Inspired by Victoria's unique culture, we invite you to immerse yourself in Geelong's upcoming estate Dalgona at Duneed. Nestled perfectly between Australia's most popular surf coast and the city of Greater Geelong, Dalgona at Duneed offers the essential elements of our daily life; the coffee, the bush, the ocean, the sun, and our serene land. At Dalgona, we are as local as your coffee.
                   </p>
                   <p>
-                    Dalgona At Duneed is a land estate located at Mt Duneed near
-                    the surf coast highway and the Armstrong Creek Towncentre,
-                    which provides residents with a comfortable and enjoyable
-                    lifestyle at the same time. The estate is located in between
-                    the surf coast and the city of Geelong. Explore the
-                    lifestyle at our sustainable master-planned community, which
-                    consists of over 170 premium lots designed to suit your
-                    needs and wants.
+                  Dalgona At Duneed is a premium boutique land estate located at Mt Duneed near the surf coast highway and the Armstrong Creek Towncentre, providing future residents with both convenience and adventure at their doorsteps. Explore this vibrant lifestyle at our sustainable master-planned community, consisting of over 170 premium lots designed with you in mind.
                   </p>
                 </div>
               </div>
@@ -144,12 +132,7 @@ export default function Home() {
               <div className="flex-2">
                 <div className="text-tertiary md:text-sm lg:text-base space-y-4">
                   <p>
-                    Located near the surf coast highway, The Dalgona at Duneed
-                    is situated right between Geelong CBD and The Great Ocean
-                    Road. Adjacent to the Armstrong Creek, the neighbourhood
-                    includes the town centre, schools, parks, shops, medical
-                    centre, aged care, childcare, public transport and the
-                    beautiful coastal nature.
+                  Dalgona at Duneed is located at 110 White Road, Mount Duneed, nestled conveniently off the surf coast highway, allowing for connectivity and ease into and outside of the community. Adjacent to the popular Armstrong Creek community, the neighbourhood includes the town centre, schools, parks, shops, medical centre, aged care centre, childcare centre. entertainment facilities, public transport and the beautiful coastal nature.
                   </p>
                 </div>
               </div>
@@ -326,11 +309,7 @@ export default function Home() {
                 <div className="text-tertiary md:text-sm lg:text-base space-y-2">
                   <h2 className="font-serif text-xl">Surf Coast Highway</h2>
                   <p>
-                    It is a huge advantage when you’re close to the highway. The
-                    surf coast Highway is connected to the whites road and
-                    provides easy access to reach Geelong CBD or Torquay in just
-                    15 minutes. It is just a kilometre away from the estate
-                    entrance.
+                  Stay connected with the ease of the Surf Coast Highway. The Highway is conveniently connected to Whites road, approx 1km from Dalgona at Duneed, providing residents the ease to travel to Geelong CBD or Torquay in just under 15 minutes.
                   </p>
                 </div>
               </div>
@@ -375,7 +354,7 @@ export default function Home() {
                     Future Amenities On Whites Road
                   </h2>
                   <p>
-                  Residents of Dalgona At Duneed can expect world-class amenities right at their doorstep on the Whites road. The Precinct Structure Plan consists of an activity centre, community complex, P-6 School, and active open spaces right at the doorstep.
+                  Residents of Dalgona At Duneed can expect world-class amenities right at their doorstep on Whites road. The Precinct Structure Plan consists of endless opportunities such as activity/ entertainment facilities, a community complex, new schools, and active open spaces throughout. 
                   </p>
                 </div>
               </div>
@@ -472,16 +451,7 @@ export default function Home() {
               </h1>
               <div className="text-tertiary text-base space-y-4">
                 <p>
-                  The true essence of our beautiful culture celebrated by the
-                  millions of beautiful people in our country has been brought
-                  to life at your very own Dalgona At Duneed. The Estate is in a
-                  shape of a coffee cup, the favourite beverage of our fellow
-                  Australians, consisting of 170 lots including 32 townhouses.
-                  The estate is adjacent to the serene and beautiful Armstrong
-                  creek, hence, connecting you with our aweispiring mother earth
-                  right in your backyard. Live this beautiful Surf Coast
-                  lifestyle at our sustainable and functional estate at Mt
-                  Duneed. Live The Dalgona Life. #DalgonaAtDuneed.
+                The true essence of our beautiful culture celebrated by the millions of diverse people in our country has been brought to life at Dalgona At Duneed. Inspired by the love and passion of Victoria's internationally recognised coffee culture, the estate creatively represents elements of this flavour. Consisting of approx 170 spacious lots, including 32 townhouses, with street names representing our international coffee culture, Dalgona at Duneed is unique and they way the locals like it! The estate is adjacent to the serene and beautiful Armstrong creek, hence, connecting you with our awe inspiring mother earth right in your backyard. Live this beautiful Surf Coast lifestyle at our sustainable and functional estate at Mt Duneed. Live The Dalgona Life. #DalgonaAtDuneed.
                 </p>
               </div>
             </div>
@@ -504,10 +474,7 @@ export default function Home() {
           </div>
           <Container>
             <h1 className="font-serif text-center text-2xl md:text-3xl text-tertiary my-16 tracking-wider">
-              THE IDEA OF DALGONA AT DUNEED IS TO CREATE A SUSTAINABLE COMMUNITY
-              FOR THE PEOPLE OF GEELONG WHICH IS AS LOCAL AS YOUR COFFEE. OUR
-              MASTERPLANNED COMMUNITY IS DEVELOPED BY A LOCAL GEELONG COMPANY
-              “GAAGE DEVELOPMENTS”.
+              DALGONA AT DUNEED IS A SUSTAINABLE COMMUNITY, DESIGNED WITH YOU IN MIND.                                           OUR MASTER PLANNED PREMIUM ESTATE IS DELIVERED TO YOU BY LOCALS FOR LOCALS.
             </h1>
           </Container>
         </div>
