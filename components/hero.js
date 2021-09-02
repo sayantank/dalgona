@@ -13,14 +13,17 @@ export default function Hero() {
     //   />
     // </div>
     <div className="player-wrapper">
-      <ReactPlayer
-        url="https://youtu.be/cDWELu9L6z8"
+      {/* <ReactPlayer
+        url="outube"
         width="100%"
         height="100%"
         className="react-player"
         controls={true}
         playing={true}
-      />
+      /> */}
+      <div className="react-player">
+        <video src="/videos/dalgona.mp4" autoPlay={true} controls={true} />
+      </div>
     </div>
   );
 }

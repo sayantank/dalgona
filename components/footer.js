@@ -4,8 +4,8 @@ export default function Footer() {
   return (
     <div className="flex flex-col">
       <div className="bg-white py-10 px-2 md:px-8 flex flex-col-reverse space-y-4 md:space-y-0 md:flex-row md:space-x-8">
-        <div className="flex-1 grid grid-cols-1 md:grid-cols-2 gap-6 md:gap4 mx-4 my-8">
-          <div>
+        <div className="px-10 flex-1 grid grid-cols-1 md:grid-cols-2 gap-6 md:gap4 mx-4 my-8">
+          <div className="px-10">
             <Image
               src="/images/dalgona-logo.png"
               width={3}
@@ -13,7 +13,7 @@ export default function Footer() {
               layout="responsive"
             />
           </div>
-          <div className="flex flex-col text-center">
+          <div className="flex flex-col text-center px-10">
             <p className="md:text-xs font-medium text-tertiary">Marketed by</p>
             <Image
               src="/images/landlaunch.png"
@@ -22,7 +22,7 @@ export default function Footer() {
               layout="responsive"
             />
           </div>
-          <div className="flex flex-col text-center">
+          <div className="flex flex-col text-center px-10">
             <p className="md:text-xs font-medium text-tertiary">Project by</p>
             <Image
               src="/images/maax.png"
@@ -31,7 +31,7 @@ export default function Footer() {
               layout="responsive"
             />
           </div>
-          <div className="flex flex-col text-center">
+          <div className="flex flex-col text-center px-10">
             <p className="md:text-xs font-medium text-tertiary">Marketed by</p>
             <Image
               src="/images/gaage.png"
