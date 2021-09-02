@@ -23,11 +23,17 @@ export default function Hero() {
       /> */}
       <div className="react-player">
         <video
-          src="https://res.cloudinary.com/nxmxnjxxn/video/upload/v1630594618/dalgona_vf9cnc.mp4"
           autoPlay={true}
           muted={true}
-          controls={false}
+          // controls={false}
+          playsInline={true}
+        >
+          <source
+          src="https://res.cloudinary.com/nxmxnjxxn/video/upload/v1630594618/dalgona_vf9cnc.mp4"
+          type="video/mp4"
         />
+        
+      </video>
       </div>
     </div>
   );
