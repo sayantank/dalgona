@@ -22,7 +22,12 @@ export default function Hero() {
         playing={true}
       /> */}
       <div className="react-player">
-        <video src="/videos/dalgona.mp4" autoPlay={true} controls={true} />
+        <video
+          src="/videos/dalgona.mp4"
+          autoPlay={true}
+          muted={true}
+          controls={true}
+        />
       </div>
     </div>
   );
