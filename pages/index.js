@@ -498,6 +498,7 @@ export default function Home() {
                 width={1}
                 height={1}
                 src="/images/dalgona-icon.png"
+                objectFit="cover"
               />
             </div>
           </div>
@@ -522,13 +523,13 @@ export default function Home() {
           </div>
         </Container>
 
-        {/* <Container>
+        <Container>
           <div className="flex flex-col space-y-4">
             <div className="flex justify-between items-center">
               <h1 className="font-serif text-3xl md:text-4xl text-tertiary my-4">
                 Updates
               </h1>
-              <p>See All</p>
+              {/* <p>See All</p> */}
             </div>
             <div className="flex flex-col md:flex-row md:space-x-8 space-y-4 md:space-y-8">
               <div className="flex-1 flex flex-col space-y-4">
@@ -541,8 +542,13 @@ export default function Home() {
                 />
                 <div className="text-tertiary text-base space-y-4">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-                    sed diam nonummy nibh euismod tincidunt ut laoreet{" "}
+                  <strong>Wel Co. & Home Co. partner to unlock the $1 billion dollar potential of the Armstrong Creek Town Centre</strong>
+                  <br/><br/>
+The Armstrong Creek Town Centre has delivered its inital stage of the project which includes Coles supermarket, restaurants, retail stores, pharmacy and much more. The home builder grant have assisted the developers to deliver the next stages faster as a massive number of people have decided to buy land in the Armstrong Creek high growth area. 
+<br/><br/>
+The town centre plan includes major supermarkets, discount department stores, shops and restaurants, office and commercial uses, major public facilities such as a regional library, aquatic centre, arts and cultural facilities and town green, a bus interchange, rail trail (future rail corridor) and medium / high density housing. The town centre will have well designed state of the art infrastructure and the facilities would be world-class.
+<br/><br/>
+Residents of Dalgona would have easy access to the town centre which will be a walk away from their homes providing them with all the amenities right in their neighbourhood.
                   </p>
                 </div>
               </div>
@@ -556,14 +562,21 @@ export default function Home() {
                 />
                 <div className="text-tertiary text-base space-y-4">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-                    sed diam nonummy nibh euismod tincidunt ut laoreet{" "}
+                  <strong>Team LandLaunch visits the Narana Aboriginal Cultural Centre at Armstrong Creek during the Naidoc Week</strong>
+                  <br/><br/>
+Narana Aboriginal Cultural Centre is an amazing cultural hub located on the Surf Coast Highway, which is quite close to the Dalgona Estate.
+<br/><br/>
+The entry to the centre is absolutely free and you would often observe events happening often at the centre. Our team visited the centre during the Naidoc week and had a fantastic experience learning more about the aboriginal culture and getting closer to the culture of the land. 
+<br/><br/>
+At the centre, there’s an art gallery, cafe, nature walk and shop. You can experience the aboriginal artwork which our team believes is one of the most sophisticated and unique artforms in the world. The fluidity of the paintings and the vibrant colours are just incredible. 
+<br/><br/>
+Kids can also observe native Australian plants and animals. You can see Emu’s and wallabies at the centre as well. The LandLaunch team recommends everyone to experience the aboriginal art & culture.
                   </p>
                 </div>
               </div>
             </div>
           </div>
-        </Container> */}
+        </Container>
         {/* <Container>
           <h1 className="font-serif text-center md:text-left text-3xl md:text-4xl text-primary mb-4 md:mb-0">
             UPDATES
