@@ -23,7 +23,7 @@ export default function Hero() {
       /> */}
       <div className="react-player">
         <video
-          src="/videos/dalgona.mp4"
+          src="https://res.cloudinary.com/nxmxnjxxn/video/upload/v1630594618/dalgona_vf9cnc.mp4"
           autoPlay={true}
           muted={true}
           controls={false}
