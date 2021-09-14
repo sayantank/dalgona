@@ -2,8 +2,17 @@ import Container from "../components/container";
 import Hero from "../components/hero";
 import Image from "next/image";
 import Head from "next/head";
+import dynamic from 'next/dynamic'
+import Link from "next/link";
+
+const DynamicComponentWithNoSSR = dynamic(
+  () => import('../components/modal-video'),
+  { ssr: false }
+)
 
 export default function Home() {
+
+
   return (
     <div className="z-10">
       <Head>
@@ -12,7 +21,7 @@ export default function Home() {
         <meta name="description" content={"An exciting new land release coming to Mt. Duneed."} />
         <meta property="og:image" content={"https://i.ibb.co/YZyD2XV/dalgona-icon-full-color-rgb-1814px-72ppi.jpg"} key="ogimage" />
       </Head>
-      <Hero />
+      {/* <Hero /> */}
       <div className="overflow-hidden">
         {/* DALGONA AT DUNEED SECTION */}
 
@@ -459,6 +468,8 @@ export default function Home() {
         </Container>
 
         {/* RANDOM TEXT SECTION */}
+        
+
 
         <div className="bg-quaternary py-8 relative">
           <div className="absolute w-full -mt-16 flex justify-center">
@@ -478,6 +489,41 @@ export default function Home() {
             </h1>
           </Container>
         </div>
+
+        <Container>
+          <div className="grid md:grid-cols-2 grid-cols-1">
+            <div className="border-tertiary flex flex-col items-center justify-center py-5">
+
+              <a href="/docs/Dalgona Masterplan.pdf" target="_blank">
+                    <button className="">
+                    <Image
+                  src="/images/plan.svg"
+                  width={150}
+                  height={150}
+                />
+                    <h1 className="mt-3 bg-tertiary p-6 font-semibold text-primary rounded-md font-serif text-xl md:text-2xl">
+                      Dalgona Masterplan
+                    </h1>
+                    </button>
+              </a>
+            </div>
+
+            <div className="border-tertiary flex flex-col items-center justify-center py-5">
+              <a href="/docs/Dalgona POS Engineering Plan.pdf" target="_blank">
+                    <button>
+                    <Image
+                  src="/images/flyer.svg"
+                  width={150}
+                  height={130}
+                />
+                    <h1 className="mt-6 bg-tertiary p-6 font-semibold text-primary rounded-md font-serif text-xl md:text-2xl">
+                      Dalgona POS Engineering Plan
+                    </h1>
+                    </button>
+              </a>
+            </div>
+          </div>
+        </Container>
         <Container>
           <div className="mt-8">
             <Image
@@ -489,6 +535,7 @@ export default function Home() {
             />
           </div>
         </Container>
+
 
         <Container>
           <div className="flex flex-col space-y-4">
@@ -603,6 +650,10 @@ Kids can also observe native Australian plants and animals. You can see Emu’s 
             </div>
           </div>
         </div> */}
+        <Container>
+            <DynamicComponentWithNoSSR/>
+        </Container>
+        
         <Container>
           <div className="mb-20"></div>
         </Container>
