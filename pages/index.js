@@ -21,7 +21,7 @@ export default function Home() {
         <meta name="description" content={"An exciting new land release coming to Mt. Duneed."} />
         <meta property="og:image" content={"https://i.ibb.co/YZyD2XV/dalgona-icon-full-color-rgb-1814px-72ppi.jpg"} key="ogimage" />
       </Head>
-      {/* <Hero /> */}
+      <Hero />
       <div className="overflow-hidden">
         {/* DALGONA AT DUNEED SECTION */}
 
@@ -501,7 +501,7 @@ export default function Home() {
                   width={150}
                   height={150}
                 />
-                    <h1 className="mt-3 bg-tertiary p-6 font-semibold text-primary rounded-md font-serif text-xl md:text-2xl">
+                    <h1 className="mt-3 bg-tertiary p-6 font-semibold text-primary rounded-md font-serif text-md md:text-2xl">
                       Dalgona Masterplan
                     </h1>
                     </button>
@@ -516,7 +516,7 @@ export default function Home() {
                   width={150}
                   height={130}
                 />
-                    <h1 className="mt-6 bg-tertiary p-6 font-semibold text-primary rounded-md font-serif text-xl md:text-2xl">
+                    <h1 className="mt-6 bg-tertiary p-6 font-semibold text-primary rounded-md font-serif text-md md:text-2xl">
                       Dalgona POS Engineering Plan
                     </h1>
                     </button>
